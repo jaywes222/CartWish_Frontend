@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.movie_card:hover {
-    @apply transform scale-105; 
+.movie_card {
+    @apply transition-all ease-in-out duration-200;
 }
 
-.movie_card, .movie_details {
-    @apply transition-all ease-in-out duration-200; 
+.movie_card:hover {
+    @apply transform scale-105;
+}
+
+.movie_details {
+    @apply transition-opacity duration-300;
+}
+
+.movie_details:hover {
+    @apply opacity-100;
 }
