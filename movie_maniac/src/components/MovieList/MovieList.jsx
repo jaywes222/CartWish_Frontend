@@ -54,7 +54,7 @@ const MovieList = () => {
                     </div>
                 </header>
 
-                <div className="movie_cards">
+                <div className="movie_cards flex flex-wrap  justify-evenly">
                     <MovieCard />
                 </div>
             </section>
