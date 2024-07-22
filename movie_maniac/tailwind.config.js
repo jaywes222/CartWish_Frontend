@@ -9,7 +9,9 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        black: '#101010'
+        black: '#101010',
+        platinum: '#e6e6e6',
+        canary: '#ffe400'
       },
       keyframes: {
         press: {
