@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import Fire from '../../assets/fire.png'
+import MovieCard from './MovieCard';
 
 const MovieList = () => {
     const [activeTab, setActiveTab] = useState('8+ Star');
@@ -52,6 +53,10 @@ const MovieList = () => {
                         </select>
                     </div>
                 </header>
+
+                <div className="movie_cards">
+                    <MovieCard />
+                </div>
             </section>
 
 
