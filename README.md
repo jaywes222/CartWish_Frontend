@@ -63,18 +63,18 @@
 
 ## Project Structure
 
-├── public/                # Public assets like index.html
+├── public/# Public assets like index.html
 ├── src/
-│   ├── assets/            # Static assets like images and icons
-│   ├── components/        # Reusable React components
-│   ├── contexts/          # Context API for state management
-│   ├── services/          # API services and utilities
-│   ├── styles/            # Tailwind CSS and global styles
-│   ├── App.js             # Main app component
-│   ├── index.js           # Entry point for React
-│   └── ...                # Other React components and pages
-├── package.json           # Project metadata and dependencies
-└── README.md              # Project documentation
+│   ├── assets/# Static assets like images and icons
+│   ├── components/# Reusable React components
+│   ├── contexts/# Context API for state management
+│   ├── services/# API services and utilities
+│   ├── styles/# Tailwind CSS and global styles
+│   ├── App.js # Main app component
+│   ├── index.js # Entry point for React
+│   └── ... # Other React components and pages
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
 
 ## Contribution
 
