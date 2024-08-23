@@ -6,12 +6,11 @@
 
 ## Screens
 ![Product Search](src/assets/productSearch.PNG)
-![Product Search](src/assets/userLogin.PNG)
-![Product Search](src/assets/userSignUp.PNG)
-![Product Search](src/assets/cart.PNG)
-![Product Search](src/assets/order.PNG)
-![Product Search](src/assets/category.PNG)
-![Product Search](src/assets/)
+![User Authentication](src/assets/userLogin.PNG)
+![User Authentication](src/assets/userSignUp.PNG)
+![Cart Management](src/assets/cart.PNG)
+![Order Management](src/assets/order.PNG)
+![Categorization](src/assets/category.PNG)
 
 ## Features
 
