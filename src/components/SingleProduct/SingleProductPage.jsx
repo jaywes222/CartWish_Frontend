@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import config from '../../config.json';
 import { useParams } from 'react-router-dom';
 import useData from '../../Hooks/useData';
 import Loader from './../Common/Loader';
@@ -24,7 +25,7 @@ const SingleProductPage = () => {
 							{product.images.map((image, index) => (
 								<img
 									key={index}
-									src={`http://localhost:5000/api/products/${image}`}
+									src={`${config.backendURL}/api/products/${image}`}
 									alt={product.title}
 									onClick={() => setSelectedImage(index)}
 									className={`w-20 h-20 object-cover rounded-[5px] cursor-pointer transition-all ease-in-out 
@@ -38,7 +39,7 @@ const SingleProductPage = () => {
 						</div>
 
 						<img
-							src={`http://localhost:5000/api/products/${product.images[selectedImage]}`}
+							src={`${config.backendURL}/api/products/${product.images[selectedImage]}`}
 							alt={product.title}
 							className="single_product_display w-[600px] h-[600px] object-cover rounded-[10px]"
 						/>

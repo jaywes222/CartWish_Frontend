@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import config from "../../config.json"
 import { NavLink } from 'react-router-dom';
 import basket from '../../assets/basket.png';
 import star from '../../assets/white-star.png';
@@ -12,7 +13,7 @@ const ProductCard = ({ product }) => {
 			<div className="h-1/2 text-center border-b border-platinum">
 				<NavLink to={`/product/${product?._id}`}>
 					<img
-						src={`http://localhost:5000/api/products/${
+						src={`${config.backendURL}/api/products/${
 							product?.images?.[0] || 'default-image.jpg'
 						}`}
 						alt={`${product?.title} image`}

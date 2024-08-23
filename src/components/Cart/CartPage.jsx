@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import remove from '../../assets/remove.png';
+import config from '../../config.json';
 import CartContext from '../../contexts/cartContext';
 import UserContext from '../../contexts/userContext';
 import { checkoutAPI } from '../../services/orderServices';
@@ -39,7 +40,7 @@ const CartPage = () => {
 			<section className="flex flex-col items-center justify-center w-full max-w-4xl mx-auto py-8 px-6">
 				<div className="flex items-center gap-4 mb-8">
 					<img
-						src={`http://localhost:5000/api/profile/${user?.profilePic}`}
+						src={`${config.backendURL}/api/profile/${user?.profilePic}`}
 						alt="User profile"
 						className="w-20 h-20 object-cover rounded-full"
 					/>
