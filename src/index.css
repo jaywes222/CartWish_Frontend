@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@layer base {
+    a {
+        @apply text-base font-medium no-underline text-inherit cursor-pointer;
+    }
 }
+
+.loader {
+    @apply border-gray-200 border-t-majorelle-blue animate-spin;
+}
+
+
