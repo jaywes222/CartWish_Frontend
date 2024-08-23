@@ -4,6 +4,15 @@
 
 **CartWish** is a dynamic and responsive e-commerce platform designed to provide users with a seamless shopping experience. This repository houses the frontend codebase for CartWish, built using React and Tailwind CSS, with integration into a robust backend API. The platform allows users to browse products, manage their shopping cart, and place orders in a user-friendly interface.
 
+## Screens
+![Product Search](src/assets/productSearch.PNG)
+![Product Search](src/assets/userLogin.PNG)
+![Product Search](src/assets/userSignUp.PNG)
+![Product Search](src/assets/cart.PNG)
+![Product Search](src/assets/order.PNG)
+![Product Search](src/assets/category.PNG)
+![Product Search](src/assets/)
+
 ## Features
 
 - **Product Search**: A powerful search feature with real-time suggestions to help users quickly find products.
@@ -32,13 +41,18 @@
    cd cartwish-frontend
 
 2. **Install Dependencies:**
-npm install
+   ```bash
+   npm install
 
 3. **Start the Development Server:**
-npm start
+   ```bash
+   npm start
 
-4.**Build the project for production:**
-npm run build
+3. **Build the project for production:**
+   ```bash
+   npm run build
+
+5.
 
 ## Project Structure
 
