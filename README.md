@@ -5,12 +5,20 @@
 **CartWish** is a dynamic and responsive e-commerce platform designed to provide users with a seamless shopping experience. This repository houses the frontend codebase for CartWish, built using React and Tailwind CSS, with integration into a robust backend API. The platform allows users to browse products, manage their shopping cart, and place orders in a user-friendly interface.
 
 ## Screens
-![Product Search](src/assets/productSearch.PNG)
+<!-- ![Product Search](src/assets/productSearch.PNG)
 ![User Authentication](src/assets/userLogin.PNG)
 ![User Authentication](src/assets/userSignUp.PNG)
 ![Cart Management](src/assets/cart.PNG)
 ![Order Management](src/assets/order.PNG)
-![Categorization](src/assets/category.PNG)
+![Categorization](src/assets/category.PNG) -->
+<div style="display: flex; justify-content: space-between;">
+  <img src="src/assets/productSearch.PNG" alt="Product Search" width="200" />
+  <img src="src/assets/userLogin.PNG" alt="User Authentication" width="200" />
+  <img src="src/assets/userSignUp.PNG" alt="User SignUp" width="200" />
+  <img src="src/assets/cart.PNG" alt="Cart Management" width="200" />
+  <img src="src/assets/order.PNG" alt="Order Management" width="200" />
+  <img src="src/assets/category.PNG" alt="Categorization" width="200" />
+</div>
 
 ## Features
 
